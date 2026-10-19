@@ -1,5 +1,6 @@
 # Published topics (newest first)
 
+- 2026-10-19: Hinge vs Bumble for men, which app deserves a busy man's time after Bumble's $1.3B sale to Ithaca and Hinge's growth, with a two week test to decide (keyword: hinge vs bumble for men)
 - 2026-10-16: Using AI for dating apps as a man, what the new Singles in America AI data says, where AI helps with profiles, photos, openers and date planning, and where it backfires (keyword: using ai for dating apps)
 - 2026-10-14: Tinder Group Hangouts explained, how men can match as a friend group and turn a group hangout into a one on one date (keyword: tinder group hangouts)
 - 2026-10-12: Bumble now lets men message first, how the new one opener and 72 hour rules work and how to write an opener that gets a reply (keyword: bumble men message first)
