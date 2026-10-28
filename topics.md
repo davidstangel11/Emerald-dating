@@ -1,5 +1,6 @@
 # Published topics (newest first)
 
+- 2026-10-28: Dating profile pictures for men, the six photos every profile needs, what Hinge's help page says gets more and fewer likes, what to cut, how to shoot them in one afternoon and using Top Photo and Tinder Photo Selector (keyword: dating profile pictures for men)
 - 2026-10-26: Halloween date ideas for men, ten plans for Halloween week (Saturday this year) from haunted houses to ghost tours, how to ask with a specific plan, what to skip, with NRF 2026 and Eventbrite Halloween dating data (keyword: halloween date ideas)
 - 2026-10-23: Best Hinge prompts for guys, nine prompts with example answers, what Hinge's data on comments and generic answers says, prompts to skip and how to pick a set of three (keyword: best hinge prompts for guys)
 - 2026-10-21: The dating recession explained for men, what the State of Our Unions 2026 data and rising date costs mean, and a seven step system to get more dates while most men sit it out (keyword: dating recession)
