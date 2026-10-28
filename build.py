@@ -116,6 +116,23 @@ h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:42px;l
 .bar a{flex:1;text-align:center;text-decoration:none;font-weight:800;font-size:15px;padding:13px 8px;border-radius:10px;background:var(--cream);color:var(--forest)}
 .bar a.alt{background:transparent;color:var(--cream);border:1px solid rgba(244,239,227,.45)}
 body{padding-bottom:76px}.top .cta-s{display:none}}
+.pr{max-width:1080px;margin:0 auto;padding:10px 20px 30px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.plan{background:#fff;border:1px solid var(--line);border-radius:18px;padding:24px;display:flex;flex-direction:column}
+.plan.hot{border:2px solid var(--emerald);position:relative}
+.plan .tag{position:absolute;top:-12px;left:20px;background:var(--emerald);color:#fff;font-size:11px;font-weight:800;letter-spacing:.1em;text-transform:uppercase;padding:5px 10px;border-radius:20px}
+.plan h2{font-family:'Playfair Display',Georgia,serif;font-size:24px;font-weight:600}
+.plan .price{font-size:34px;font-weight:800;color:var(--forest);margin-top:8px}
+.plan .price small{font-size:15px;font-weight:600;color:var(--soft)}
+.plan p{font-size:15px;line-height:1.55;color:var(--soft);margin-top:8px}
+.plan ul{margin:14px 0 18px 18px;font-size:14.5px;line-height:1.7;color:#262a22;flex:1}
+.plan a{display:block;text-align:center;text-decoration:none;font-weight:800;padding:13px;border-radius:10px;background:var(--forest);color:var(--cream)}
+.plan a.alt{background:var(--cream);color:var(--forest)}
+.cmp{max-width:740px;margin:10px auto 0;padding:0 20px}
+.cmp table{width:100%;border-collapse:collapse;background:#fff;font-size:15px}
+.cmp th,.cmp td{border:1px solid var(--line);padding:10px 12px;text-align:left}
+.cmp th{background:var(--cream)}
+.cmp h2{font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:600;margin:30px 0 12px}
+.cmp p{font-size:15.5px;line-height:1.65;color:var(--soft);margin-top:12px}
 @media (max-width:640px){h1,.post h1{font-size:31px}.body{font-size:17px}.logo small{display:none}}
 """
 
@@ -150,7 +167,7 @@ def page(title, desc, canonical, body, extra_head=""):
 <footer class="foot"><div class="in">
 <span>© {datetime.date.today().year} Emerald Dating. Done-for-you dating for busy professionals, run by a 100% US-based team.</span>
 <span>Text or call David: <a href="{sms()}">{PHONE_SHOW}</a> · <a href="{BOOK}">Book a call</a>{upwork_link(" · ")}</span>
-<span><a href="{MAIN}/">emerald.dating</a> · <a href="{SITE}/">All articles</a> · <a href="{SITE}/feed.xml">RSS</a></span>
+<span><a href="{SITE}/pricing/">Pricing</a> · <a href="{MAIN}/">emerald.dating</a> · <a href="{SITE}/">All articles</a> · <a href="{SITE}/feed.xml">RSS</a></span>
 </div></footer>
 <nav class="bar"><a href="{sms()}">Text David</a><a class="alt" href="{BOOK}">Book a call</a></nav>
 </body></html>
@@ -232,11 +249,41 @@ def build():
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(
         page("Dating App Advice for Busy Men | Emerald Dating Blog",
              "Hinge, Bumble and Tinder advice for busy men: profile tips, opening messages and how to turn matches into real dates.", f"{SITE}/", idx))
+    pricing = f"""<section class="hero"><div class="eyebrow">Emerald Dating pricing</div>
+<h1>Pick how much of your dating life you want back</h1>
+<p class="lede">Dating profile management, done for you. A US-based assistant with a bachelor's degree optimizes your profile, swipes, messages your matches and coordinates the date, so you just show up. <b>16+ new quality matches in your first 7 days, or your money back.</b></p></section>
+<section class="pr">
+<div class="plan"><h2>Bronze</h2><div class="price">$125<small>/week</small></div><p>We run your apps and book your dates.</p>
+<ul><li>Your own US-based assistant</li><li>Profile optimization included</li><li>Daily swiping and messaging</li><li>Dates coordinated onto your calendar</li></ul><a href="{sms()}">Text David to start</a></div>
+<div class="plan hot"><span class="tag">Most popular</span><h2>Gold</h2><div class="price">$175<small>/week</small></div><p>More assistant time, more matches, more dates.</p>
+<ul><li>Everything in Bronze</li><li>More of your assistant's time every week</li><li>More conversations moved to real dates</li></ul><a href="{sms()}">Text David to start</a></div>
+<div class="plan"><h2>Emerald</h2><div class="price">$220<small>/week</small></div><p>Maximum volume, fully hands-off.</p>
+<ul><li>Everything in Gold</li><li>The most assistant time we offer</li><li>Highest match and date volume</li></ul><a href="{sms()}">Text David to start</a></div>
+</section>
+<section class="pr">
+<div class="plan"><h2>Profile Optimization</h2><div class="price">$99<small> one time</small></div><p>Fix the profile, then run it yourself.</p>
+<ul><li>Best photos picked and ordered</li><li>Prompts and bio rewritten</li><li>App settings tuned</li></ul><a class="alt" href="{sms()}">Text David for the $99 fix</a></div>
+<div class="plan"><h2>Dating App OS</h2><div class="price">$49<small>/month</small></div><p>The full playbook if you'd rather do it yourself.</p>
+<ul><li>Course and message scripts</li><li>Real profile examples</li><li>Private community</li></ul><a class="alt" href="https://www.skool.com/next-gen-dating-5893">Join on Skool</a></div>
+</section>
+<section class="cmp"><h2>Pay per week, not per date</h2>
+<p>Our clients average 2 to 4 dates a week, capped only by their schedule.</p>
+<table><tr><th>Plan</th><th>Per week</th><th>Cost per date at 2 to 4 dates</th></tr>
+<tr><td>Bronze</td><td>$125</td><td>$31 to $63</td></tr><tr><td>Gold</td><td>$175</td><td>$44 to $88</td></tr><tr><td>Emerald</td><td>$220</td><td>$55 to $110</td></tr></table>
+<p>Typical dating concierges charge thousands up front for about 12 dates in 90 days. Individual results vary. Guarantee conditions apply, see our <a href="{MAIN}/">Terms</a>.</p>
+</section>
+<main class="wrap" style="padding-top:10px">{cta("pricing")}</main>"""
+    os.makedirs(os.path.join(OUT, "pricing"), exist_ok=True)
+    open(os.path.join(OUT, "pricing", "index.html"), "w", encoding="utf-8").write(
+        page("Pricing: Dating Profile Management | Emerald Dating",
+             "Emerald Dating pricing: done-for-you dating profile management from $125/week, Profile Optimization $99, Dating App OS $49/month. 16+ matches in 7 days or money back.",
+             f"{SITE}/pricing/", pricing))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         page("Page not found | Emerald Dating Blog", "Page not found.", f"{SITE}/",
              f'<main class="wrap"><h1>Page not found</h1><p class="lede"><a href="{SITE}/">Back to all articles</a></p></main>'))
 
     urls = [f"<url><loc>{SITE}/</loc><lastmod>{posts[0]['date'] if posts else today}</lastmod></url>"]
+    urls += [f"<url><loc>{SITE}/pricing/</loc></url>"]
     urls += [f"<url><loc>{SITE}/{p['slug']}/</loc><lastmod>{p['date']}</lastmod></url>" for p in posts]
     open(os.path.join(OUT, "sitemap.xml"), "w").write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + "".join(urls) + "</urlset>\n")
     open(os.path.join(OUT, "robots.txt"), "w").write(f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
