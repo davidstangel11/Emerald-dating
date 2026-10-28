@@ -182,7 +182,7 @@ def cta(slug):
     proof = f'<p class="proof">50+ client reviews on <a href="{UPWORK}">David\'s Upwork profile</a>.</p>' if UPWORK else ""
     return f"""<div class="box">
 <h3>Want more dates without the app grind?</h3>
-<p>Emerald Dating rebuilds your profile, runs your Hinge, Bumble and Tinder, writes every message and books the dates. You just show up.<br><b>16+ new quality matches in your first 7 days, or your money back.</b></p>
+<p>Dating profile management, done for you: we optimize your profile, swipe, message your matches and coordinate the date on Hinge, Bumble and Tinder. You just show up.<br><b>16+ new quality matches in your first 7 days, or your money back.</b></p>
 <div class="btns"><a href="{sms()}">Text David: {PHONE_SHOW}</a><a class="alt" href="{BOOK}">Book a call</a>{up}</div>
 <p class="tiers">Profile Optimization $99 · Done-for-you plans from $125/week</p>
 {proof}</div>"""
