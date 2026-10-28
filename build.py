@@ -18,6 +18,12 @@ import markdown
 SITE = "https://blog.emerald.dating"
 MAIN = "https://emerald.dating"
 NAME = "Emerald Dating Blog"
+# Contact paths (conversion). Leave UPWORK empty to hide the Upwork button.
+PHONE = "+14077189695"
+PHONE_SHOW = "(407) 718-9695"
+SMS_BODY = "Hi David, I read your blog and want more dates. Can we talk?"
+BOOK = "https://calendar.app.google/fFkwJPWrZwZmasFW9"
+UPWORK = ""
 ROOT = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(ROOT, "docs")
 
@@ -97,6 +103,19 @@ h1{font-family:'Playfair Display',Georgia,serif;font-weight:600;font-size:42px;l
 .foot{border-top:1px solid var(--line);background:var(--cream)}
 .foot .in{max-width:1080px;margin:0 auto;padding:26px 20px;font-size:13px;color:var(--soft);display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:space-between}
 .foot a{text-decoration:none;font-weight:700;color:var(--forest)}
+.box .btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:22px}
+.box .btns a{margin-top:0}
+.box a.alt{background:transparent;color:var(--cream);border:1px solid rgba(244,239,227,.45)}
+.box .tiers{margin-top:18px;font-size:14px;color:rgba(244,239,227,.75)}
+.box .proof{margin-top:14px;font-size:13.5px;color:rgba(244,239,227,.7)}
+.box .proof a{display:inline;margin:0;padding:0;background:none;color:var(--mint);font-family:inherit;font-size:inherit;font-weight:700;text-decoration:underline}
+.mid{margin:30px 0;padding:18px 20px;border:1px solid var(--line);border-left:4px solid var(--emerald);border-radius:12px;background:#fff;font-size:16px;line-height:1.6}
+.mid a{color:var(--emerald);font-weight:800}
+.bar{display:none}
+@media (max-width:640px){.bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:var(--forest)}
+.bar a{flex:1;text-align:center;text-decoration:none;font-weight:800;font-size:15px;padding:13px 8px;border-radius:10px;background:var(--cream);color:var(--forest)}
+.bar a.alt{background:transparent;color:var(--cream);border:1px solid rgba(244,239,227,.45)}
+body{padding-bottom:76px}.top .cta-s{display:none}}
 @media (max-width:640px){h1,.post h1{font-size:31px}.body{font-size:17px}.logo small{display:none}}
 """
 
@@ -125,24 +144,48 @@ def page(title, desc, canonical, body, extra_head=""):
 </head><body>
 <header class="top"><div class="in">
 <a class="logo" href="{SITE}/">{GEM}<span class="wm">emerald<span>.dating</span></span><small>Blog</small></a>
-<a class="cta-s" href="{MAIN}/?utm_source=blog&amp;utm_medium=header#apply">Apply in 60 seconds</a>
+<a class="cta-s" href="{sms()}">Text David: {PHONE_SHOW}</a>
 </div></header>
 {body}
 <footer class="foot"><div class="in">
 <span>© {datetime.date.today().year} Emerald Dating. Done-for-you dating for busy professionals, run by a 100% US-based team.</span>
+<span>Text or call David: <a href="{sms()}">{PHONE_SHOW}</a> · <a href="{BOOK}">Book a call</a>{upwork_link(" · ")}</span>
 <span><a href="{MAIN}/">emerald.dating</a> · <a href="{SITE}/">All articles</a> · <a href="{SITE}/feed.xml">RSS</a></span>
 </div></footer>
+<nav class="bar"><a href="{sms()}">Text David</a><a class="alt" href="{BOOK}">Book a call</a></nav>
 </body></html>
 """
 
 
+def sms():
+    from urllib.parse import quote
+    return f"sms:{PHONE}?&amp;body={quote(SMS_BODY)}"
+
+
+def upwork_link(prefix=""):
+    return f'{prefix}<a href="{UPWORK}">Upwork</a>' if UPWORK else ""
+
+
+def mid_cta(slug):
+    return f"""<div class="mid"><b>Rather have this done for you?</b> Text David, the founder, at <a href="{sms()}">{PHONE_SHOW}</a> or <a href="{BOOK}">book a quick call</a>. He answers personally.</div>"""
+
+
+def with_mid(h, slug):
+    parts = h.split("<h2")
+    if len(parts) > 4:
+        parts[3] = parts[3] + mid_cta(slug)
+    return "<h2".join(parts)
+
+
 def cta(slug):
-    u = f"{MAIN}/?utm_source=blog&amp;utm_medium=article&amp;utm_campaign={slug}#apply"
+    up = f'<a class="alt" href="{UPWORK}">Message David on Upwork</a>' if UPWORK else ""
+    proof = f'<p class="proof">50+ client reviews on <a href="{UPWORK}">David\'s Upwork profile</a>.</p>' if UPWORK else ""
     return f"""<div class="box">
-<h3>Want dates without the dating app grind?</h3>
-<p>Emerald Dating rebuilds your profile, runs your Hinge, Bumble and Tinder, writes every message and books the dates for you.<br><b>16+ new quality matches in your first 7 days, or your money back.</b></p>
-<a href="{u}">See if you qualify</a>
-</div>"""
+<h3>Want more dates without the app grind?</h3>
+<p>Emerald Dating rebuilds your profile, runs your Hinge, Bumble and Tinder, writes every message and books the dates. You just show up.<br><b>16+ new quality matches in your first 7 days, or your money back.</b></p>
+<div class="btns"><a href="{sms()}">Text David: {PHONE_SHOW}</a><a class="alt" href="{BOOK}">Book a call</a>{up}</div>
+<p class="tiers">Profile Optimization $99 · Done-for-you plans from $125/week</p>
+{proof}</div>"""
 
 
 def build():
@@ -172,7 +215,7 @@ def build():
 <div class="eyebrow">{esc(", ".join(p["tags"]) or "Dating")}</div>
 <h1>{esc(p["title"])}</h1>
 <div class="meta">By David, founder of Emerald Dating · {p["dt"].strftime("%B %-d, %Y")} · {p["minutes"]} min read</div>
-<div class="body">{p["body_html"]}</div>
+<div class="body">{with_mid(p["body_html"], p["slug"])}</div>
 {cta(p["slug"])}
 </article>{more}</main>"""
         os.makedirs(os.path.join(OUT, p["slug"]))

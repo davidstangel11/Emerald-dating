@@ -15,7 +15,7 @@ The blog publishes 3 times a week (Monday, Wednesday, Friday). Each run adds one
 - Voice: David, founder of Emerald Dating, who has helped men with dating for over 10 years. Direct, practical, warm, confident. Short paragraphs. No fluff, no hype.
 - Structure: a 2 to 3 sentence intro that names the problem, H2 sections, specific actionable advice, a short bottom line.
 - Use real numbers only from sources you actually opened and checked this run, linked inline. Never invent statistics, studies, quotes or client stories.
-- One natural mention of Emerald Dating near the end with this exact guarantee wording: **16+ new quality matches in your first 7 days, or your money back.** Link to https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=SLUG. The page template already adds a call to action box, so do not add another.
+- One natural mention of Emerald Dating near the end with this exact guarantee wording: **16+ new quality matches in your first 7 days, or your money back.** Link to https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=SLUG. In that same closing paragraph, invite the reader to text David directly at (407) 718-9695 or book a quick call at https://calendar.app.google/fFkwJPWrZwZmasFW9 (one sentence, personal tone: he answers himself). The page template already adds a mid-article contact note, a call to action box and a mobile contact bar, so do not add another box.
 - Link to 1 or 2 earlier posts on https://blog.emerald.dating when relevant.
 - House style rules: never use em dashes, en dashes or double hyphens (use commas, periods, colons or parentheses). `build.py` refuses to build if any appear. Do not make claims about anyone's personal attributes. Do not name or disparage real private people.
 
