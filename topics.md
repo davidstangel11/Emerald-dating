@@ -1,5 +1,6 @@
 # Published topics (newest first)
 
+- 2026-11-02: Dating during the holidays for men, a week by week plan from Thanksgiving swiping to December dates, holiday parties, when to bring someone home, gifts for someone new and New Year's Eve, with Tinder Thanksgiving, Hinge Dating Sunday, Talker Research and Tawkify data (keyword: dating during the holidays)
 - 2026-10-30: Getting ghosted on dating apps, why matches go quiet, what Hinge's Your Turn Limits data says about replying within 24 hours, eight fixes for men and what not to do after a ghost (keyword: getting ghosted on dating apps)
 - 2026-10-28: Dating profile pictures for men, the six photos every profile needs, what Hinge's help page says gets more and fewer likes, what to cut, how to shoot them in one afternoon and using Top Photo and Tinder Photo Selector (keyword: dating profile pictures for men)
 - 2026-10-26: Halloween date ideas for men, ten plans for Halloween week (Saturday this year) from haunted houses to ghost tours, how to ask with a specific plan, what to skip, with NRF 2026 and Eventbrite Halloween dating data (keyword: halloween date ideas)
