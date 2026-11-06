@@ -1,5 +1,6 @@
 # Published topics (newest first)
 
+- 2026-11-06: How to ask a girl out on a dating app, why chats stall before a date, when to ask, a hook plus specific plan plus two times formula, copyable asks, using Hinge Date Ideas, easy first date picks and handling a no or silence, with Hinge Date Ideas test and survey data (keyword: how to ask a girl out on a dating app)
 - 2026-11-04: Is Hinge+ worth it for men, what free, Hinge+ and HingeX include and cost, Match Group's Q3 2026 cheaper Hinge tier test, when paying helps, when HingeX is worth it, when to skip and how to run a three month paid sprint (keyword: is hinge plus worth it)
 - 2026-11-02: Dating during the holidays for men, a week by week plan from Thanksgiving swiping to December dates, holiday parties, when to bring someone home, gifts for someone new and New Year's Eve, with Tinder Thanksgiving, Hinge Dating Sunday, Talker Research and Tawkify data (keyword: dating during the holidays)
 - 2026-10-30: Getting ghosted on dating apps, why matches go quiet, what Hinge's Your Turn Limits data says about replying within 24 hours, eight fixes for men and what not to do after a ghost (keyword: getting ghosted on dating apps)
