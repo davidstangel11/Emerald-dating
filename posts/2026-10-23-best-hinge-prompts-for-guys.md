@@ -122,7 +122,7 @@ Then treat your profile like any other test. Change one prompt at a time, give i
 
 ## When you would rather not write any of this
 
-Rewriting prompts, testing photos and keeping up with every conversation takes hours most busy men do not have. That is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=best-hinge-prompts-for-guys) does for you. We rebuild your profile, write your prompts, run your apps and book the dates. **16+ new quality matches in your first 7 days, or your money back.**
+Rewriting prompts, testing photos and keeping up with every conversation takes hours most busy men do not have. That is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=best-hinge-prompts-for-guys) does for you. We rebuild your profile, write your prompts, run your apps and book the dates. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

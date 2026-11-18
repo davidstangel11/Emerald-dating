@@ -113,7 +113,7 @@ If you only remember one thing, make it this: every good conversation should get
 
 ## Want the dates without the back and forth?
 
-For a lot of busy men, the problem is not matches. It is time to turn those matches into plans. That is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=how-to-ask-a-girl-out-on-a-dating-app) handles: we build and manage your dating profiles, keep conversations moving and get first dates on your calendar. **16+ new quality matches in your first 7 days, or your money back.** If you want to talk it through, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
+For a lot of busy men, the problem is not matches. It is time to turn those matches into plans. That is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=how-to-ask-a-girl-out-on-a-dating-app) handles: we build and manage your dating profiles, keep conversations moving and get first dates on your calendar. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.** If you want to talk it through, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
 
 ## The bottom line
 

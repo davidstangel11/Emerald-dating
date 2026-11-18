@@ -108,7 +108,7 @@ Test one change at a time. Swap your lead photo, give it a week, and see whether
 
 ## When you don't have time to do this yourself
 
-Picking photos, testing them, rewriting prompts and then actually messaging matches takes hours every week. That is the part busy men usually skip, and it is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=dating-profile-pictures-for-men) handles for you. We help choose and order your photos, rebuild your profile, run your apps and book the dates. **16+ new quality matches in your first 7 days, or your money back.**
+Picking photos, testing them, rewriting prompts and then actually messaging matches takes hours every week. That is the part busy men usually skip, and it is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=dating-profile-pictures-for-men) handles for you. We help choose and order your photos, rebuild your profile, run your apps and book the dates. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

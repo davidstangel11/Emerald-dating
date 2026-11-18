@@ -99,7 +99,7 @@ That is it. The goal is fewer hours on the apps and more evenings out, not a bet
 
 ## When to hand it off entirely
 
-Even with AI, running three apps well still takes consistent time every day. If you would rather not do it at all, that is what we do at [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=using-ai-for-dating-apps). Real people on our team rebuild your profiles, run your Hinge, Bumble and Tinder, write the messages in your voice and book the dates. **16+ new quality matches in your first 7 days, or your money back.**
+Even with AI, running three apps well still takes consistent time every day. If you would rather not do it at all, that is what we do at [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=using-ai-for-dating-apps). Real people on our team rebuild your profiles, run your Hinge, Bumble and Tinder, write the messages in your voice and book the dates. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

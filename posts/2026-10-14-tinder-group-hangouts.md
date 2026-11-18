@@ -118,7 +118,7 @@ If you are in your late 20s or early 30s, you live in a city where Tinder is act
 
 If you are older, short on free friends or your local feed shows few groups, it is not a reason to rebuild your whole approach. Keep your one-on-one profiles sharp and use Group Hangouts as an extra channel. And if dating apps already feel like a second job, you are not alone. We broke down [why men are quitting dating apps](https://blog.emerald.dating/why-men-are-quitting-dating-apps/) and what actually helps.
 
-If you would rather skip the setup entirely, that is what we do at [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=tinder-group-hangouts). We rebuild your profiles, run your apps, write the messages and book the dates. **16+ new quality matches in your first 7 days, or your money back.**
+If you would rather skip the setup entirely, that is what we do at [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=tinder-group-hangouts). We rebuild your profiles, run your apps, write the messages and book the dates. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

@@ -94,7 +94,7 @@ If you are unsure, run both and let the numbers decide:
 
 ## If you would rather skip all of this
 
-Running even two apps well takes steady daily effort, and most busy men run out of patience well before the results show up. At [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=hinge-vs-bumble-for-men), our team rebuilds your profiles, runs your Hinge, Bumble and Tinder, writes every message and books the dates for you. **16+ new quality matches in your first 7 days, or your money back.**
+Running even two apps well takes steady daily effort, and most busy men run out of patience well before the results show up. At [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=hinge-vs-bumble-for-men), our team rebuilds your profiles, runs your Hinge, Bumble and Tinder, writes every message and books the dates for you. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

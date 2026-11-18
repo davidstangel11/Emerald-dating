@@ -68,7 +68,7 @@ Set a short daily window for the apps instead of checking them all day. Twenty f
 
 Some men read a list like this and think, "I know what to do, I just do not have the time to do it consistently." That is exactly the gap a done-for-you dating service fills.
 
-At [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=why-men-are-quitting-dating-apps), our US-based team rebuilds your profile, runs your Hinge, Bumble and Tinder, writes every message in your voice and books the dates onto your calendar. You approve your matches and show up. We back it with a simple guarantee: **16+ new quality matches in your first 7 days, or your money back.**
+At [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=why-men-are-quitting-dating-apps), our US-based team rebuilds your profile, runs your Hinge, Bumble and Tinder, writes every message in your voice and books the dates onto your calendar. You approve your matches and show up. We back it with a simple guarantee: **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

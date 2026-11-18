@@ -98,7 +98,7 @@ If your friend group is going out anyway, Tinder's group feature is worth a look
 
 ## If you would rather just show up
 
-Planning dates is the fun part. Writing openers, reviving old matches and coordinating schedules across three apps is the part most busy men skip, which is why their weekends stay empty. That is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=halloween-date-ideas) handles for you. We rebuild your profile, run your apps and book the dates, so you just show up. **16+ new quality matches in your first 7 days, or your money back.**
+Planning dates is the fun part. Writing openers, reviving old matches and coordinating schedules across three apps is the part most busy men skip, which is why their weekends stay empty. That is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=halloween-date-ideas) handles for you. We rebuild your profile, run your apps and book the dates, so you just show up. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

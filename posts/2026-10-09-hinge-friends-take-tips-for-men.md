@@ -118,7 +118,7 @@ Timing matters too. Cuffing season is underway. If you have not read it yet, our
 
 ## Let someone else do the heavy lifting
 
-Friend's Take works because other people often describe you better than you describe yourself. The same is true for the rest of your dating life. If you would rather spend your evenings on dates instead of on swiping and messaging, that is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=hinge-friends-take-tips-for-men) does. We rebuild your profile, run your apps and book the dates, with **16+ new quality matches in your first 7 days, or your money back.**
+Friend's Take works because other people often describe you better than you describe yourself. The same is true for the rest of your dating life. If you would rather spend your evenings on dates instead of on swiping and messaging, that is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=hinge-friends-take-tips-for-men) does. We rebuild your profile, run your apps and book the dates, with **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

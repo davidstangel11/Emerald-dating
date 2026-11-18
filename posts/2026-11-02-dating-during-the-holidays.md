@@ -96,7 +96,7 @@ If you want the broader fall and winter strategy, our [cuffing season dating tip
 
 ## When your December is already full
 
-Most busy men do not lack interest in dating during the holidays. They lack time. Between year end deadlines, travel and parties, the daily work of swiping, replying and planning dates is the first thing to slip. That is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=dating-during-the-holidays) handles for you: we sharpen your profile, manage your apps and keep conversations moving until dates are on your calendar. **16+ new quality matches in your first 7 days, or your money back.** If you want to talk it through, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
+Most busy men do not lack interest in dating during the holidays. They lack time. Between year end deadlines, travel and parties, the daily work of swiping, replying and planning dates is the first thing to slip. That is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=dating-during-the-holidays) handles for you: we sharpen your profile, manage your apps and keep conversations moving until dates are on your calendar. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.** If you want to talk it through, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
 
 ## The bottom line
 

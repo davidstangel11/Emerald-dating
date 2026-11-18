@@ -88,7 +88,7 @@ Fix one thing at a time for two weeks and watch what changes. This kind of small
 
 ## When you'd rather not manage the inbox yourself
 
-Replying within 24 hours, writing specific openers and moving every chat to a plan is simple, but it is not easy when you work 60 hour weeks. That daily inbox work is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=getting-ghosted-on-dating-apps) does for busy men: we rebuild your profile, manage your apps and keep conversations moving until the date is on your calendar. **16+ new quality matches in your first 7 days, or your money back.** If you want to talk it through, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
+Replying within 24 hours, writing specific openers and moving every chat to a plan is simple, but it is not easy when you work 60 hour weeks. That daily inbox work is exactly what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=getting-ghosted-on-dating-apps) does for busy men: we rebuild your profile, manage your apps and keep conversations moving until the date is on your calendar. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.** If you want to talk it through, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
 
 ## The bottom line
 

@@ -199,9 +199,9 @@ def cta(slug):
     proof = f'<p class="proof">50+ client reviews on <a href="{UPWORK}">David\'s Upwork profile</a>.</p>' if UPWORK else ""
     return f"""<div class="box">
 <h3>Want more dates without the app grind?</h3>
-<p>Dating profile management, done for you: we optimize your profile, swipe, message your matches and coordinate the date on Hinge, Bumble and Tinder. You just show up.<br><b>16+ new quality matches in your first 7 days, or your money back.</b></p>
+<p>Dating profile management, done for you: we optimize your profile, swipe, message your matches and coordinate the date on Hinge, Bumble and Tinder. You just show up.<br><b>Profile results guaranteed: 16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.</b></p>
 <div class="btns"><a href="{sms()}">Text David: {PHONE_SHOW}</a><a class="alt" href="{BOOK}">Book a call</a>{up}</div>
-<p class="tiers">Profile Optimization $99 · Done-for-you plans from $125/week</p>
+<p class="tiers">Custom plans built around you · Text David for a quote</p>
 {proof}</div>"""
 
 
@@ -248,33 +248,42 @@ def build():
 <section class="grid">{cards}</section>"""
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(
         page("Dating App Advice for Busy Men | Emerald Dating Blog",
-             "Hinge, Bumble and Tinder advice for busy men: profile tips, opening messages and how to turn matches into real dates.", f"{SITE}/", idx))
+             "Hinge, Bumble and Tinder advice for busy men: profile tips, opening messages and how to turn matches into real dates.", f"{SITE}/", idx,
+             '<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://emerald.dating/#org", "name": "Emerald Dating", "url": "https://emerald.dating/", "telephone": "+1-407-718-9695", "description": "Premium, fully personalized dating app management for busy men, run by a US-based team.", "sameAs": ["https://blog.emerald.dating/"]}, {"@type": "Blog", "name": "Emerald Dating Blog", "url": "https://blog.emerald.dating/", "publisher": {"@id": "https://emerald.dating/#org"}}]}</script>'))
+    llms = ["# Emerald Dating", "",
+            "> Emerald Dating (https://emerald.dating) is a premium, fully personalized dating app management service for busy professional men in the US and Canada. A US-based team led by founder David (10+ years helping men with dating, master's degree in psychology) rebuilds the client's dating profile, runs Hinge, Bumble and Tinder in his voice, messages matches and books dates onto his calendar.", "",
+            "- Pricing: custom, built around each client's goals, city, schedule and apps. No public price list.",
+            "- Guarantee: profile results guarantee. When Emerald Dating rebuilds a client's profile, he gets 16+ new quality matches in his first 7 days, or his money back. Clients whose profiles already perform well can hire the concierge for time savings without a guarantee.",
+            "- Contact: text or call David at +1 (407) 718-9695, or apply at https://emerald.dating/apply", "",
+            "## Key pages", "",
+            "- [Home](https://emerald.dating/): what the service does and how it works",
+            "- [Apply](https://emerald.dating/apply): 60 second application",
+            "- [Pricing](https://blog.emerald.dating/pricing/): how custom pricing and the guarantee work",
+            "- [Terms](https://emerald.dating/terms) and [Privacy](https://emerald.dating/privacy)", "",
+            "## Dating app guides", ""] + [f"- [{p['title']}]({SITE}/{p['slug']}/): {p['description']}" for p in posts]
+    open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llms) + "\n")
     pricing = f"""<section class="hero"><div class="eyebrow">Emerald Dating pricing</div>
-<h1>Pick how much of your dating life you want back</h1>
-<p class="lede">Dating profile management, done for you. A US-based assistant with a bachelor's degree optimizes your profile, swipes, messages your matches and coordinates the date, so you just show up. <b>16+ new quality matches in your first 7 days, or your money back.</b></p></section>
+<h1>Pricing built around you</h1>
+<p class="lede">Emerald Dating is a premium, fully personalized dating service for busy men. No two clients get the same plan, so there is no one-size price. Text David, tell him what you want, and he will build your plan and quote, usually the same day.</p></section>
 <section class="pr">
-<div class="plan"><h2>Bronze</h2><div class="price">$125<small>/week</small></div><p>We run your apps and book your dates.</p>
-<ul><li>Your own US-based assistant</li><li>Profile optimization included</li><li>Daily swiping and messaging</li><li>Dates coordinated onto your calendar</li></ul><a href="{sms()}">Text David to start</a></div>
-<div class="plan hot"><span class="tag">Most popular</span><h2>Gold</h2><div class="price">$175<small>/week</small></div><p>More assistant time, more matches, more dates.</p>
-<ul><li>Everything in Bronze</li><li>More of your assistant's time every week</li><li>More conversations moved to real dates</li></ul><a href="{sms()}">Text David to start</a></div>
-<div class="plan"><h2>Emerald</h2><div class="price">$220<small>/week</small></div><p>Maximum volume, fully hands-off.</p>
-<ul><li>Everything in Gold</li><li>The most assistant time we offer</li><li>Highest match and date volume</li></ul><a href="{sms()}">Text David to start</a></div>
+<div class="plan hot"><span class="tag">Most clients</span><h2>Full concierge</h2><div class="price">Custom</div><p>We run your dating life end to end.</p>
+<ul><li>Profile rebuilt around your type</li><li>Daily swiping and messaging in your voice</li><li>Dates booked onto your calendar</li><li>A US-based team on your account</li></ul><a href="{sms()}">Text David for your plan</a></div>
+<div class="plan"><h2>Profile rebuild</h2><div class="price">Custom</div><p>Fix the profile, then run it yourself.</p>
+<ul><li>Best photos picked and ordered</li><li>Prompts and bio rewritten</li><li>App settings tuned</li></ul><a class="alt" href="{sms()}">Text David for a quote</a></div>
 </section>
-<section class="pr">
-<div class="plan"><h2>Profile Optimization</h2><div class="price">$99<small> one time</small></div><p>Fix the profile, then run it yourself.</p>
-<ul><li>Best photos picked and ordered</li><li>Prompts and bio rewritten</li><li>App settings tuned</li></ul><a class="alt" href="{sms()}">Text David for the $99 fix</a></div>
-</section>
-<section class="cmp"><h2>Pay per week, not per date</h2>
-<p>Our clients average 2 to 4 dates a week, capped only by their schedule.</p>
-<table><tr><th>Plan</th><th>Per week</th><th>Cost per date at 2 to 4 dates</th></tr>
-<tr><td>Bronze</td><td>$125</td><td>$31 to $63</td></tr><tr><td>Gold</td><td>$175</td><td>$44 to $88</td></tr><tr><td>Emerald</td><td>$220</td><td>$55 to $110</td></tr></table>
-<p>Every plan is personalized to you, and our one guarantee is simple: 16+ new quality matches in your first 7 days, or your money back. Individual results vary. Guarantee conditions apply, see our <a href="{MAIN}/terms">Terms</a>.</p>
+<section class="cmp"><h2>What shapes your plan</h2>
+<p>Which apps you want us to run, how much of the swiping, messaging and scheduling you want handed off, your city and schedule, and whether your profile needs a rebuild or is already performing.</p>
+<h2>Our guarantee</h2>
+<p><b>Profile results guaranteed: 16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.</b> Already doing well on the apps and just short on time? Then you don't need a guarantee, you need your time back, and our concierge takes over the work so you just show up. Guarantee conditions apply, see our <a href="{MAIN}/terms">Terms</a>. Individual results vary.</p>
+<h2>Questions</h2>
+<h3>How much does Emerald Dating cost?</h3><p>Pricing is custom. Your plan is built around your goals, your city, your schedule and the apps you want us to run, so there is no one-size price. Text David and he will put together your plan and quote, usually the same day.</p><h3>How does the guarantee work?</h3><p>Our guarantee covers the part we control: your profile. When we rebuild your profile, you get 16+ new quality matches in your first 7 days, or your money back. If your profile already performs well and you mainly want us to take over the swiping, messaging and scheduling, there is nothing to fix, so the guarantee is not needed and we tell you that before you start.</p><h3>Who works on my account?</h3><p>A small, US-based team led by David, the founder, who has helped men with dating for over 10 years and holds a master's degree in psychology. No overseas outsourcing and no bots.</p><h3>Is it confidential?</h3><p>Yes. Your apps, matches and conversations stay private, and we never share your information. Full details are in our Privacy Policy.</p>
+<script type="application/ld+json">{{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{{"@type": "Question", "name": "How much does Emerald Dating cost?", "acceptedAnswer": {{"@type": "Answer", "text": "Pricing is custom. Your plan is built around your goals, your city, your schedule and the apps you want us to run, so there is no one-size price. Text David and he will put together your plan and quote, usually the same day."}}}}, {{"@type": "Question", "name": "How does the guarantee work?", "acceptedAnswer": {{"@type": "Answer", "text": "Our guarantee covers the part we control: your profile. When we rebuild your profile, you get 16+ new quality matches in your first 7 days, or your money back. If your profile already performs well and you mainly want us to take over the swiping, messaging and scheduling, there is nothing to fix, so the guarantee is not needed and we tell you that before you start."}}}}, {{"@type": "Question", "name": "Who works on my account?", "acceptedAnswer": {{"@type": "Answer", "text": "A small, US-based team led by David, the founder, who has helped men with dating for over 10 years and holds a master's degree in psychology. No overseas outsourcing and no bots."}}}}, {{"@type": "Question", "name": "Is it confidential?", "acceptedAnswer": {{"@type": "Answer", "text": "Yes. Your apps, matches and conversations stay private, and we never share your information. Full details are in our Privacy Policy."}}}}]}}</script>
 </section>
 <main class="wrap" style="padding-top:10px">{cta("pricing")}</main>"""
     os.makedirs(os.path.join(OUT, "pricing"), exist_ok=True)
     open(os.path.join(OUT, "pricing", "index.html"), "w", encoding="utf-8").write(
-        page("Pricing: Dating Profile Management | Emerald Dating",
-             "Emerald Dating pricing: done-for-you dating profile management from $125/week, Profile Optimization $99. 16+ matches in 7 days or money back.",
+        page("Pricing: Personalized Dating App Management | Emerald Dating",
+             "Emerald Dating pricing is custom: a personalized plan for dating app management or a profile rebuild. Profile results guaranteed. Text David for a quote.",
              f"{SITE}/pricing/", pricing))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         page("Page not found | Emerald Dating Blog", "Page not found.", f"{SITE}/",

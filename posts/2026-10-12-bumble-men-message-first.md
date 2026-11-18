@@ -103,7 +103,7 @@ A simple, confident ask works best: suggest a specific place and two possible da
 
 ## Short on time? Let us handle it
 
-Writing a thoughtful opener for every match, on every app, every week, is a real time commitment. If you would rather show up to dates than manage the inbox, that is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=bumble-men-message-first) does. We rebuild your profile, run your Bumble, Hinge and Tinder, write the messages and book the dates, with **16+ new quality matches in your first 7 days, or your money back.**
+Writing a thoughtful opener for every match, on every app, every week, is a real time commitment. If you would rather show up to dates than manage the inbox, that is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=bumble-men-message-first) does. We rebuild your profile, run your Bumble, Hinge and Tinder, write the messages and book the dates, with **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

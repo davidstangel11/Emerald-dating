@@ -85,7 +85,7 @@ Matches feel good. Dates are the point. Each week, count how many first dates yo
 
 ## If you do not have time to run the system
 
-The hard part about a slow market is that it rewards consistency, and consistency is exactly what a busy schedule takes away. That is why we built [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=dating-recession-men). Our team rebuilds your profiles, runs your Hinge, Bumble and Tinder every day, writes every message and books the dates straight into your calendar. **16+ new quality matches in your first 7 days, or your money back.**
+The hard part about a slow market is that it rewards consistency, and consistency is exactly what a busy schedule takes away. That is why we built [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=dating-recession-men). Our team rebuilds your profiles, runs your Hinge, Bumble and Tinder every day, writes every message and books the dates straight into your calendar. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 

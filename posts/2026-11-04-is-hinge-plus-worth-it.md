@@ -114,7 +114,7 @@ Timing matters too. The weeks after New Year's are the busiest of the year on th
 
 ## If your time is worth more than the subscription
 
-For most of the men I work with, the subscription is the cheap part. The expensive part is the hours: fixing photos, rewriting prompts, sorting likes, keeping a dozen conversations alive and actually getting dates booked. That is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=is-hinge-plus-worth-it) does for you, from building a profile worth paying to promote to managing your apps until dates are on your calendar. **16+ new quality matches in your first 7 days, or your money back.** If you want to talk through whether paying for Hinge makes sense for you, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
+For most of the men I work with, the subscription is the cheap part. The expensive part is the hours: fixing photos, rewriting prompts, sorting likes, keeping a dozen conversations alive and actually getting dates booked. That is what [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=is-hinge-plus-worth-it) does for you, from building a profile worth paying to promote to managing your apps until dates are on your calendar. **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.** If you want to talk through whether paying for Hinge makes sense for you, text me directly at (407) 718-9695 or [book a quick call](https://calendar.app.google/fFkwJPWrZwZmasFW9), and I'll answer myself.
 
 ## The bottom line
 

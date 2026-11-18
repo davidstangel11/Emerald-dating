@@ -103,7 +103,7 @@ The same Hily survey found that 36% of young American men would start a relation
 
 Everything above works. The problem is doing it consistently for three or four months while running a demanding career. Same day replies, fresh openers and booking dates every week is a part time job.
 
-That is where [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=cuffing-season-dating-tips-for-men) comes in. Our US-based team refreshes your profile, runs your Hinge, Bumble and Tinder, writes every message in your voice and puts the dates on your calendar. You just show up. And we stand behind it: **16+ new quality matches in your first 7 days, or your money back.**
+That is where [Emerald Dating](https://emerald.dating/?utm_source=blog&utm_medium=article&utm_campaign=cuffing-season-dating-tips-for-men) comes in. Our US-based team refreshes your profile, runs your Hinge, Bumble and Tinder, writes every message in your voice and puts the dates on your calendar. You just show up. And we stand behind it: **16+ new quality matches in your first 7 days after we rebuild your profile, or your money back.**
 
 ## The bottom line
 
