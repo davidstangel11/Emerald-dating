@@ -133,10 +133,55 @@ body{padding-bottom:76px}.top .cta-s{display:none}}
 .cmp th{background:var(--cream)}
 .cmp h2{font-family:'Playfair Display',Georgia,serif;font-size:28px;font-weight:600;margin:30px 0 12px}
 .cmp p{font-size:15.5px;line-height:1.65;color:var(--soft);margin-top:12px}
+
+/* refresh 2026-11 */
+.top{background:var(--forest);border-bottom:1px solid rgba(201,169,97,.25);position:sticky;top:0;z-index:30}
+.top .logo{color:var(--cream)}
+.top .logo small{color:var(--mint)}
+.nav{display:flex;align-items:center;gap:22px}
+.nav a{color:rgba(244,239,227,.82);text-decoration:none;font-size:14px;font-weight:700}
+.nav a:hover{color:#fff}
+.top .cta-s{background:var(--cream);color:var(--forest)}
+.band{background:radial-gradient(110% 140% at 50% 0%,#1C5642 0%,#103528 50%,var(--forest) 100%);color:var(--cream)}
+.band .hero{padding:64px 20px 56px}
+.band .eyebrow{color:var(--mint)}
+.band h1{color:var(--cream)}
+.band .lede{color:rgba(244,239,227,.8)}
+.trust{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.trust span{font-size:13px;font-weight:700;padding:8px 13px;border-radius:999px;border:1px solid rgba(201,169,97,.45);color:var(--cream);background:rgba(255,255,255,.04)}
+.trust b{color:var(--gold);letter-spacing:1px}
+.grid{padding-top:40px}
+.card{position:relative;overflow:hidden;box-shadow:0 1px 2px rgba(18,20,15,.04)}
+.card:before{content:"";position:absolute;left:0;top:0;right:0;height:4px;background:linear-gradient(90deg,var(--emerald),var(--gold));opacity:0;transition:opacity .15s}
+.card:hover:before{opacity:1}
+.card:hover{box-shadow:0 18px 40px rgba(11,36,27,.1)}
+.card .go{display:inline-block;margin-top:14px;font-size:14px;font-weight:800;color:var(--emerald)}
+.card.feat{grid-column:1/-1;background:var(--forest);color:var(--cream);border-color:transparent;padding:36px 34px}
+.card.feat .meta{color:var(--mint)}
+.card.feat h2{font-size:32px;max-width:760px}
+.card.feat p{color:rgba(244,239,227,.8);font-size:16.5px;max-width:720px}
+.card.feat .go{color:var(--gold)}
+.phead .in{max-width:740px;margin:0 auto;padding:56px 20px 46px}
+.phead .meta{color:rgba(244,239,227,.75);margin-top:16px;display:flex;align-items:center;gap:10px}
+.phead .meta img{width:34px;height:34px;border-radius:50%;object-fit:cover;border:1px solid rgba(201,169,97,.6)}
+.post.wrap{padding-top:10px}
+.author{margin-top:40px;display:flex;gap:18px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:18px;padding:22px}
+.author img{width:76px;height:76px;border-radius:50%;object-fit:cover;flex:none}
+.author h4{font-family:'Playfair Display',Georgia,serif;font-size:20px;font-weight:600}
+.author p{font-size:14.5px;line-height:1.6;color:var(--soft);margin-top:4px}
+.foot{background:var(--forest);border-top:0}
+.foot .in{color:rgba(244,239,227,.7)}
+.foot a{color:var(--cream)}
+.band + .pr{padding-top:44px}
+@media (max-width:760px){.nav a.hide{display:none}.card.feat{padding:26px 22px}.card.feat h2{font-size:25px}.band .hero{padding:44px 20px 40px}.phead .in{padding:40px 20px 34px}}
+@media (max-width:640px){.nav{gap:14px}}
 @media (max-width:640px){h1,.post h1{font-size:31px}.body{font-size:17px}.logo small{display:none}}
 """
 
 GEM = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#1F7A57" stroke-width="1.8"><path d="M8 2h8l4 5v10l-4 5H8l-4-5V7z"/><path d="M9.5 6h5l2 2.5v7l-2 2.5h-5l-2-2.5v-7z"/></svg>'
+
+
+GEM_L = GEM.replace('#1F7A57', '#57C79A')
 
 
 def esc(s):
@@ -152,7 +197,7 @@ def page(title, desc, canonical, body, extra_head=""):
 <link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
 <meta property="og:url" content="{canonical}"><meta property="og:site_name" content="{NAME}">
-<meta name="twitter:card" content="summary">
+<meta name="twitter:card" content="summary_large_image"><meta property="og:image" content="{SITE}/og.jpg"><meta name="twitter:image" content="{SITE}/og.jpg">
 <link rel="alternate" type="application/rss+xml" title="{NAME}" href="{SITE}/feed.xml">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -160,8 +205,8 @@ def page(title, desc, canonical, body, extra_head=""):
 {extra_head}
 </head><body>
 <header class="top"><div class="in">
-<a class="logo" href="{SITE}/">{GEM}<span class="wm">emerald<span>.dating</span></span><small>Blog</small></a>
-<a class="cta-s" href="{sms()}">Text David: {PHONE_SHOW}</a>
+<a class="logo" href="{SITE}/">{GEM_L}<span class="wm">emerald<span>.dating</span></span><small>Blog</small></a>
+<nav class="nav"><a class="hide" href="{MAIN}/">How it works</a><a class="hide" href="{SITE}/pricing/">Pricing</a><a href="{MAIN}/apply">Apply</a><a class="cta-s" href="{sms()}">Text David</a></nav>
 </div></header>
 {body}
 <footer class="foot"><div class="in">
@@ -205,6 +250,9 @@ def cta(slug):
 {proof}</div>"""
 
 
+AUTHOR = f"""<div class="author"><img src="{SITE}/david.jpg" alt="David, founder of Emerald Dating" width="76" height="76" loading="lazy"><div><h4>Written by David</h4><p>Founder of Emerald Dating. Master's in psychology, 10+ years helping men date better, and a US-based team that runs Hinge, Bumble and Tinder for busy professionals every day. <a href="{MAIN}/">About Emerald Dating</a></p></div></div>"""
+
+
 def build():
     posts = sorted((parse(p) for p in glob.glob(os.path.join(ROOT, "posts", "*.md"))), key=lambda m: m["dt"], reverse=True)
     today = datetime.date.today()
@@ -215,6 +263,8 @@ def build():
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT)
+    for f in glob.glob(os.path.join(ROOT, "static", "*")):
+        shutil.copy(f, OUT)
 
     for i, p in enumerate(posts):
         url = f"{SITE}/{p['slug']}/"
@@ -228,23 +278,27 @@ def build():
         more = ""
         if others:
             more = '<div class="more"><h4>Keep reading</h4>' + "".join(f'<a href="{SITE}/{o["slug"]}/">{esc(o["title"])}</a>' for o in others) + "</div>"
-        body = f"""<main class="wrap post"><article>
+        body = f"""<header class="band phead"><div class="in">
 <div class="eyebrow">{esc(", ".join(p["tags"]) or "Dating")}</div>
 <h1>{esc(p["title"])}</h1>
-<div class="meta">By David, founder of Emerald Dating · {p["dt"].strftime("%B %-d, %Y")} · {p["minutes"]} min read</div>
+<div class="meta"><img src="{SITE}/david.jpg" alt="David, founder of Emerald Dating" width="34" height="34"><span>By David, founder of Emerald Dating · {p["dt"].strftime("%B %-d, %Y")} · {p["minutes"]} min read</span></div>
+</div></header>
+<main class="wrap post"><article>
 <div class="body">{with_mid(p["body_html"], p["slug"])}</div>
 {cta(p["slug"])}
+{AUTHOR}
 </article>{more}</main>"""
         os.makedirs(os.path.join(OUT, p["slug"]))
         open(os.path.join(OUT, p["slug"], "index.html"), "w", encoding="utf-8").write(
             page(f'{p["title"]} | Emerald Dating', p["description"], url, body,
                  f'<meta property="og:type" content="article"><script type="application/ld+json">{json.dumps(ld)}</script>'))
 
-    cards = "".join(f"""<a class="card" href="{SITE}/{p['slug']}/"><div class="meta">{p['dt'].strftime('%b %-d, %Y')} · {p['minutes']} min read</div>
-<h2>{esc(p['title'])}</h2><p>{esc(p['description'])}</p></a>""" for p in posts)
-    idx = f"""<section class="hero"><div class="eyebrow">The Emerald Dating Blog</div>
+    cards = "".join(f"""<a class="card{' feat' if i == 0 else ''}" href="{SITE}/{p['slug']}/"><div class="meta">{'Latest · ' if i == 0 else ''}{p['dt'].strftime('%b %-d, %Y')} · {p['minutes']} min read</div>
+<h2>{esc(p['title'])}</h2><p>{esc(p['description'])}</p><span class="go">Read the guide →</span></a>""" for i, p in enumerate(posts))
+    idx = f"""<div class="band"><section class="hero"><div class="eyebrow">The Emerald Dating Blog</div>
 <h1>Dating app advice for busy men</h1>
-<p class="lede">Straight answers on Hinge, Bumble and Tinder, better profiles, better messages and more real dates, from the team that runs dating apps for professionals every day.</p></section>
+<p class="lede">Straight answers on Hinge, Bumble and Tinder, better profiles, better messages and more real dates, from the team that runs dating apps for professionals every day.</p>
+<div class="trust"><span><b>★★★★★</b> Verified Upwork reviews</span><span>100% US-based team</span><span>Profile results guaranteed</span></div></section></div>
 <section class="grid">{cards}</section>"""
     open(os.path.join(OUT, "index.html"), "w", encoding="utf-8").write(
         page("Dating App Advice for Busy Men | Emerald Dating Blog",
@@ -262,9 +316,9 @@ def build():
             "- [Terms](https://emerald.dating/terms) and [Privacy](https://emerald.dating/privacy)", "",
             "## Dating app guides", ""] + [f"- [{p['title']}]({SITE}/{p['slug']}/): {p['description']}" for p in posts]
     open(os.path.join(OUT, "llms.txt"), "w", encoding="utf-8").write("\n".join(llms) + "\n")
-    pricing = f"""<section class="hero"><div class="eyebrow">Emerald Dating pricing</div>
+    pricing = f"""<div class="band"><section class="hero"><div class="eyebrow">Emerald Dating pricing</div>
 <h1>Pricing built around you</h1>
-<p class="lede">Emerald Dating is a premium, fully personalized dating service for busy men. No two clients get the same plan, so there is no one-size price. Text David, tell him what you want, and he will build your plan and quote, usually the same day.</p></section>
+<p class="lede">Emerald Dating is a premium, fully personalized dating service for busy men. No two clients get the same plan, so there is no one-size price. Text David, tell him what you want, and he will build your plan and quote, usually the same day.</p></section></div>
 <section class="pr">
 <div class="plan hot"><span class="tag">Most clients</span><h2>Full concierge</h2><div class="price">Custom</div><p>We run your dating life end to end.</p>
 <ul><li>Profile rebuilt around your type</li><li>Daily swiping and messaging in your voice</li><li>Dates booked onto your calendar</li><li>A US-based team on your account</li></ul><a href="{sms()}">Text David for your plan</a></div>
