@@ -263,20 +263,18 @@ def build():
 <section class="pr">
 <div class="plan"><h2>Profile Optimization</h2><div class="price">$99<small> one time</small></div><p>Fix the profile, then run it yourself.</p>
 <ul><li>Best photos picked and ordered</li><li>Prompts and bio rewritten</li><li>App settings tuned</li></ul><a class="alt" href="{sms()}">Text David for the $99 fix</a></div>
-<div class="plan"><h2>Dating App OS</h2><div class="price">$49<small>/month</small></div><p>The full playbook if you'd rather do it yourself.</p>
-<ul><li>Course and message scripts</li><li>Real profile examples</li><li>Private community</li></ul><a class="alt" href="https://www.skool.com/next-gen-dating-5893">Join on Skool</a></div>
 </section>
 <section class="cmp"><h2>Pay per week, not per date</h2>
 <p>Our clients average 2 to 4 dates a week, capped only by their schedule.</p>
 <table><tr><th>Plan</th><th>Per week</th><th>Cost per date at 2 to 4 dates</th></tr>
 <tr><td>Bronze</td><td>$125</td><td>$31 to $63</td></tr><tr><td>Gold</td><td>$175</td><td>$44 to $88</td></tr><tr><td>Emerald</td><td>$220</td><td>$55 to $110</td></tr></table>
-<p>Typical dating concierges charge thousands up front for about 12 dates in 90 days. Individual results vary. Guarantee conditions apply, see our <a href="{MAIN}/">Terms</a>.</p>
+<p>Every plan is personalized to you, and our one guarantee is simple: 16+ new quality matches in your first 7 days, or your money back. Individual results vary. Guarantee conditions apply, see our <a href="{MAIN}/terms">Terms</a>.</p>
 </section>
 <main class="wrap" style="padding-top:10px">{cta("pricing")}</main>"""
     os.makedirs(os.path.join(OUT, "pricing"), exist_ok=True)
     open(os.path.join(OUT, "pricing", "index.html"), "w", encoding="utf-8").write(
         page("Pricing: Dating Profile Management | Emerald Dating",
-             "Emerald Dating pricing: done-for-you dating profile management from $125/week, Profile Optimization $99, Dating App OS $49/month. 16+ matches in 7 days or money back.",
+             "Emerald Dating pricing: done-for-you dating profile management from $125/week, Profile Optimization $99. 16+ matches in 7 days or money back.",
              f"{SITE}/pricing/", pricing))
     open(os.path.join(OUT, "404.html"), "w", encoding="utf-8").write(
         page("Page not found | Emerald Dating Blog", "Page not found.", f"{SITE}/",
